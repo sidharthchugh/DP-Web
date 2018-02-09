@@ -1,0 +1,67 @@
+@value mobile,tablet,computer,monitor,widescreen from "../common/breakpoints.css";
+.foobar{
+    position: relative;
+    top: -30px;
+    right: 19px;
+    .dropdown{
+        .icon{
+            display:none!important;
+        }
+    }
+     .menu {
+				left: -7rem!important;
+				.fa{
+					padding-right: 5px!important;
+				}
+     }
+}
+
+.company-share{
+  position: absolute;
+  top: 11px;
+  right: 6rem;
+  z-index: 99;
+  .dropdown{
+    .icon{
+    	display:none!important;
+    }
+    }
+    .menu {
+      left: -7rem!important;
+    }
+}
+
+.company-share-german{
+  position: absolute;
+  top: 11px;
+  right: 9.5rem;
+  z-index: 99;
+  .dropdown{
+    .icon{
+    	display:none!important;
+    }
+    }
+    .menu {
+      left: -7rem!important;
+    }
+}
+
+.newsFeedMatchCompName{
+	line-height: 10px;
+	color: rgba(0,0,0,.7);
+	padding: 12px 1px 8px 2px;
+	border-bottom: 1px solid #e6e9ec;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.matchTitleMoveDown{
+  padding-top: 10px;
+  @media tablet {
+    margin-left: -59px;
+  }
+  @media mobile {
+  }
+}
+
+

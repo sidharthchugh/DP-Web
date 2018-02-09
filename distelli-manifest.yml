@@ -1,0 +1,35 @@
+
+davidchh/TractionB2B:
+
+  PkgInclude:
+    - '*'
+  Build:
+    - source ~/.nvm/nvm.sh
+    - echo "Installing Node Version 7.4.0"
+    - nvm install 7.4.0
+    - echo "Intsalling Node Packages"
+    - npm install
+    - echo "Building Application"
+    - npm run build
+  PreRelease:
+    - echo "Copying git folder for git logs"
+    - mkdir -p git_tmp
+    - cp -r .git/* git_tmp
+  PostInstall:
+    - echo "Distelli PostInstall Started."
+    - mv git_tmp .git
+    - echo "Distelli PostInstall Complete."
+  Start:
+    - echo "Set Path for nvm"
+    - source ~/.nvm/nvm.sh
+    - echo "Starting/Reload PM2"
+    - npm start
+  PostStart:
+    - echo "Logging to Rollbar."
+    - curl https://api.rollbar.com/api/1/deploy/ -F access_token=$ACCESS_TOKEN -F environment=$ENVIRONMENT -F revision=$REVISION -F local_username=$LOCAL_USERNAME
+    - echo "Logging to opbeat."
+    - 'curl https://intake.opbeat.com/api/v1/organizations/a6a2fc392a6d4094a27c5d12b99d8b32/apps/682377c173/releases/ -H "Authorization: Bearer 4f6ffb254760db94aa50f48229a40967b751250b" -d rev=$(git log -n 1 --pretty=format:%H) -d branch=$(git rev-parse --abbrev-ref HEAD) -d status=completed'
+    - echo "Done connecting to Opbeat"
+  Terminate:
+    - pm2 stop process.json --only $Name
+    - pm2 delete process.json --only $Name

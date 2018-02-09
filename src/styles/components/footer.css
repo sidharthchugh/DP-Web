@@ -1,0 +1,107 @@
+@value mobile,tablet,computer,monitor,widescreen from "../common/breakpoints.css";
+
+#container-footer{
+  background: #4A4A4A;
+  .logo-footer{
+   @media mobile{
+      margin-top: 2rem;
+   } 
+    & > img{
+      margin: auto;
+    }
+  }
+  @media computer{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  @media tablet{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  @media mobile{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  & > div:first-child{
+    & > div{
+      padding-top: 0px;
+    }
+  }
+  & > div > div{
+    padding-bottom: 5%;
+    & > div{
+      text-align: center;
+      & > p{
+        color: white;
+        font-size: 18px;
+        font-family: Catamaran-Medium;
+      }
+      & > a{
+        margin: auto;
+        font-size: 18px;
+        font-family: Catamaran-Medium;
+        color: #FFFFFF;
+        display: inline-block;
+        margin-right: auto;
+        padding-top: 0.5rem;
+        & > img{
+          margin-right: 5px;
+          margin-left: 5px;
+          width: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+.image-footer-social{
+  display: inline-block;
+  margin: 10px;
+  width: 30px;
+  @media widescreen{
+    width: 25px;
+  }
+  @media monitor{
+    width: 25px;
+  }
+  @media computer{
+    width: 22px;
+  }
+}
+
+.reach-align{
+  @media monitor{
+    top: 18px;
+  }
+  @media computer{
+    top: 42px;
+  }
+  @media widescreen{
+    top: 18px;
+  }
+}
+
+.contact-align{
+  @media monitor{
+    top: 60px;
+  }
+  @media computer{
+    top: 60px;
+  }
+  @media widescreen{
+    top: 60px;
+  }
+}
+
+.footer-align{
+  @media monitor{
+    margin-top: -35px;
+  }
+  @media computer{
+    margin-top: -35px;
+  }
+  @media widescreen{
+    margin-top: -35px;
+  }
+}

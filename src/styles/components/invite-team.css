@@ -1,0 +1,58 @@
+.inviteTeam-page{
+  .profile-header{
+    .profile-button{
+      background-color: #d8d8d8;
+      &:hover {
+        background-color: #d8d8d8;
+      }
+    }
+  }
+  .profile-card {
+    .character-counter {
+      display: none;
+    }
+  }
+  .extended-card{
+    height: 780px;
+  }
+  min-height: 100%;
+  .inviteTeam-form{
+    position: relative;
+  }
+  .inviteTeam-content-header{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.67;
+    letter-spacing: 3px;
+    color: #000000;
+    margin-bottom: 17px;
+    font-family: 'Catamaran-Bold';
+  }
+  .sub-heading{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    color: #000000;
+    margin-bottom: 60px;
+    font-family: 'Catamaran';
+  }
+  .inviteTeam-button{
+    padding: 10px 42px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .validation{
+    color: red;
+  }
+  .inviteTeam-form{
+    input{
+      margin-bottom: 10px;
+    }
+    textarea{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+/* BreakPoints */
+@value mobile: (max-width: 767px);
+@value tablet: (min-width: 768px) and (max-width: 991px);
+@value computer: (min-width: 992px) and (max-width: 1199px);
+@value monitor: (min-width: 1200px) and (max-width: 1919px);
+@value widescreen: (min-width: 1920px);

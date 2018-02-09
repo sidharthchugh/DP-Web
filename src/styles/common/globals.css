@@ -1,0 +1,336 @@
+@value mobile,tablet,computer,monitor,widescreen from "./breakpoints.css";
+/* Colors */
+
+body h1, h2, h3, h4, h5, h6 {
+  font-family: 'Catamaran';
+  word-break: break-all;
+}
+
+
+/* Fonts */
+strong{
+  font-family: Catamaran-Bold;
+}
+
+/* Font Sizes */
+
+
+.ui.segment{
+  box-shadow: 0 ;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: none;
+}
+
+/* Bottons */
+.ui.button.button-small{
+  font-size: 12px;
+  background-color: #FF6D6A;
+  color: #fefefe;
+  width: 94px;
+	height: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  padding: 0.85em 2em;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 0px;
+  font-weight: normal;
+  font-family: Catamaran;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  &--grey{
+    background-color: #d8d8d8 !important;
+    border-color: #d8d8d8 !important;
+    &:hover,
+    &:active,
+    &:focus{
+      background-color: #d8d8d8;
+      border-color: #d8d8d8;
+    }
+  }
+  @media mobile{
+    width: 85px;
+    height:25px;
+    padding-top:6.5px;
+  }
+}
+
+.ui.button.button-normal{
+  font-size: 12px;
+  letter-spacing: 1px;
+  background-color: #FF6D6A;
+  color: #fefefe;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  font-family: Catamaran;
+  padding-right: 30px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+a.button-2,
+.ui.button.button-4,
+.ui.button.button-2{
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0px;
+	font-family: Catamaran;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+  cursor: pointer;
+  color: #FF6D6A;
+  &:hover,
+  &:active,
+  &:focus{
+    cursor: pointer;
+    color: #FF6D6A;
+  }
+}
+
+a.button-4,
+.ui.button.button-4{
+  cursor: pointer !important;
+  background-color: transparent;
+	font-size: 12px;
+	letter-spacing: 1px;
+  cursor: pointer;
+  &--black{
+    color: black;
+  }
+  &--grey{
+    color: #979797;
+  }
+}
+
+
+
+
+/* React Semantic UI Input */
+.ui.input input{
+  border-color: #d8d8d8 !important;
+  min-height: 35px;
+  font-size: 16px;
+  font-family: Catamaran;
+  padding-left: 10px;
+  padding-top:0px;
+  padding-bottom: 0px;
+  &:active,
+  &:focus{
+    border-color: #d8d8d8;
+  }
+  &::-moz-placeholder{
+    font-size: 16px;
+    opacity: 1 !important;
+    color: #808080 !important;
+    font-family: Catamaran-Light;
+  }
+  &::-webkit-input-placeholder{
+    font-size: 16px;
+    opacity: 1 !important;
+    color: #808080 !important;
+    font-family: Catamaran-Light;
+    padding-top:5px;
+  }
+}
+
+/* React Semantic UI Text Area*/
+.ui.form textarea{
+    font-size: 16px;
+    border-color: #d8d8d8 !important;
+    padding-left: 10px;
+    &::-moz-placeholder{
+      font-size: 16px;
+      opacity: 1 !important;
+      color: #808080 !important;
+      font-family: Catamaran-Light;
+    }
+    &::-webkit-input-placeholder{
+      font-size: 16px;
+      opacity: 1 !important;
+      color: #808080 !important;
+      font-family: Catamaran-Light;
+    }
+}
+
+input{
+  &::-moz-placeholder{
+    font-size: 16px;
+    opacity: 1 !important;
+    color: #808080 !important;
+  }
+  &::-webkit-input-placeholder{
+    font-size: 16px;
+    opacity: 1 !important;
+    color: #808080 !important;
+    font-family: Catamaran-Light;
+  }
+}
+
+
+/* Headings */
+.card-white{
+  background: white;
+  box-shadow: 0 2px 4px 0 #e7e7e7;
+  padding: 30px;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card-white-within-card{
+  background: white;
+  padding: 30px;
+    margin-left: -2.1rem;
+    margin-right: -2.16rem;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.heading1,
+h3.heading1{
+	font-family: Catamaran-Light;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.67;
+	letter-spacing: 3px;
+	color: #39393a;
+  word-break: break-word;
+   @media mobile{
+   letter-spacing: 0px;
+  }
+}
+
+.heading2{
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #4a4a4a;
+}
+
+.heading3{
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1.4px;
+	color: #4a4a4a;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.p-secondary{
+  font-family: Catamaran;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.4px;
+  color: #4a4a4a;
+  text-transform: none;
+}
+
+.profileSection--whitecard{
+  margin-left: -46px;
+  margin-right: -46px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-bottom: 2px solid #D8D8D8;
+}
+
+.no-shadow{
+  box-shadow: 0 0 0 0 !important;
+}
+
+/* Extended Card use usually inside a Collapsible card element*/
+div.ui.grid.grid-application-card{
+  border-bottom: solid 2px #D8D8D8;
+  margin-right: -46px;
+  margin-left: -46px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  @computer{
+    margin-right: -46px;
+    margin-left: -46px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  &:hover{
+    background-color: #F1F1F1;
+    & > div.content.active{
+      background-color: #F1F1F1;
+    }
+  }
+  .profile-card{
+    background-color: transparent;
+  }
+
+  .wrapper-description{
+    padding-left: 10px;
+  }
+
+}
+
+/* Compact Card used inside a raw Grid.Column Element*/
+div.ui.grid.grid-compact-card{
+  border-bottom: solid 2px #D8D8D8;
+  margin-right: -30px;
+  margin-left: -30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  @computer{
+    margin-right: -46px;
+    margin-left: -46px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  &:hover{
+    background-color: #F1F1F1;
+    & > div.content.active{
+      background-color: #F1F1F1;
+    }
+  }
+
+  .profile-card{
+    background-color: transparent;
+  }
+
+  /* company description wrapper */
+  .wrapper-description{
+    padding-left: 10px;
+  }
+}
+
+/* Sticky */
+.edit-save-wrapper{
+  right: 0px;
+  top: 50px;
+}
+
+/* Tittle */
+.title-project{
+  &:hover{
+    text-decoration: underline;
+  }
+}

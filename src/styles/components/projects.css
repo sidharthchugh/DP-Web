@@ -1,0 +1,137 @@
+
+.column-project-category-label-other{
+  width: 44%;
+  margin: auto;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.column-project-category-field-other{
+  width: 44%;
+  margin: auto;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+/* Separator Standard Grey */
+.separator-standard-grey{
+  margin-right: -30px;
+  margin-bottom: -30px;
+  margin-top: 20px;
+  border-bottom: 2px solid #D8D8D8;
+  margin-right: -2rem;
+  margin-top: 0px;
+}
+
+.myApps{
+  margin-top: 10px!important;
+}
+
+.signup-projectfooter{
+  margin-bottom: 7rem;
+  margin-left: -1rem;
+  @media widescreen{
+    margin-bottom: 16rem;
+  }
+}
+
+.match-logoadjust{
+  margin-left: 14px;
+  margin-top: 2px;
+}
+
+.projectinProgress{
+  margin-top: 2rem;
+}
+
+/* Publish Botton */
+.collapse-publish{
+  margin-right: 10px;
+}
+
+
+.projectSubmit{
+  float: right;
+  margin-top: -3rem;
+}
+
+.collapse-projectApplication{
+  top: -9px !important;
+  right:0px!important;
+  width: 200px;
+}
+
+.collapse-heading{
+  margin-bottom: 10px!important;
+}
+
+.p-description{
+  font-family: Catamaran;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.4px;
+  color: #4a4a4a;
+  text-transform: none;
+  min-width: 41rem;
+}
+
+.skip-button{
+  float: right;
+}
+
+.signup-project{
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-weight: 500;
+  word-wrap: break-word;
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+/* Received App Date */
+.received-app-date{
+  color: #979797;
+  font-family: Catamaran-Light;
+}
+
+  .company-file{
+    @media table{
+      text-align: center;
+    }
+    &--file {
+      /*max-width: 70px;
+      max-height: 70px;*/
+      margin-top: 10px;
+      border-radius: 5px;
+      display: block;
+      color:black;
+      @media tablet{
+        margin: auto;
+        margin-top: 10px;
+      }
+      @media mobile{
+        margin: auto;
+      }
+      &-edit {
+        /*max-width: 70px;
+        max-height: 70px;*/
+        border-radius: 5px;
+        display: block;
+        margin-left: 13px;
+        margin-bottom: 10px;
+        color:black;
+        @media tablet{
+          margin-left: auto;
+          margin-right: auto;
+        }
+        @media mobile{
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+

@@ -1,0 +1,65 @@
+.authentication-section{
+  width:1680px;
+  padding-bottom: 8rem;
+  padding-top: 5rem;
+  background-color: #e7e7e7;
+  h3{
+    padding-left: 1rem;
+    font-size: 20px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    margin-left: 8rem;
+  }
+  .recover-password{
+    margin-left: 2rem;
+  }
+  input[type="text"], input[type="email"], input[type="password"]{
+    text-align:center;
+  }
+
+  .signup-form {
+    padding-top: 8px;
+  }
+
+  .forget-password{
+    padding-left:1.5rem;
+  }
+
+  .validation {
+    padding-top: 10px;
+    width: 240px;
+    height: 20px;
+    font-family: Catamaran;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.7px;
+    color: #f40000;
+  }
+
+  input[type="submit"]{
+    min-width: 8.5rem;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    padding:0.4rem 2.4rem;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .alternative-link{
+    color: #9b9b9b;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 1px;
+    margin-left: 0.5rem;
+  }
+}

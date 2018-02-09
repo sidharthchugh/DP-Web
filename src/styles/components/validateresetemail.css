@@ -1,0 +1,100 @@
+@value mobile,tablet,computer,monitor,widescreen from "../common/breakpoints.css";
+
+
+.authentication-action{
+  background-color: #F6F6F6;
+  height: 100%;
+  header{
+    padding-top: 40px;
+    padding-bottom: 7rem;
+  }
+  .validate{
+    @media widescreen{
+      height: 75vh;
+    }
+    @media monitor{
+      height: 60vh;
+    }
+    @media computer{
+      height: 60vh;
+    }
+    @media tablet{
+      height: 46vh;
+    }
+    @media mobile{
+      height: 63vh;
+    }
+  }
+  h3{
+  }
+  .alternative-link {
+    color: #4a4a4a;
+  }
+  form{
+    .input-group{
+      padding-bottom: 40px;
+      position: relative;
+      margin-bottom: 0px;
+      &:nth-child(2){
+        padding-bottom: 70px;
+      }
+      input{
+        margin-bottom: 0px;
+      }
+      span{
+        left: 0px;
+        top: 47px;
+      }
+    }
+    input[type="text"], input[type="email"], input[type="password"]{
+      text-align:center;
+    }
+    input[type="submit"]{
+      position: relative;
+      margin-bottom: 30px;
+      padding:0.4rem 2.4rem;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.43;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .signup-form {
+      padding-top: 8px;
+    }
+
+    .recover-password{
+      padding-left:2rem;
+      padding-top: 2rem;
+
+    }
+
+    .forget-password{
+      padding-left:1.5rem;
+    }
+
+    .validation {
+      font-family: Catamaran;
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: 0.7pxs;
+      color: #f40000;
+      margin-top: 15px;
+      position: absolute;
+      margin-left: 5px;
+      display: inline-block;
+      top: 12px;
+      left: 100%;
+      @media mobile{
+        top: 50%;
+        left: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-Page-old" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Landing-Page-v2" transform="translate(-553.000000, -1802.000000)" stroke="#000000" stroke-width="2">
+            <g id="Group-35" transform="translate(-1.000000, 1600.000000)">
+                <g id="Group-16" transform="translate(555.000000, 203.000000)">
+                    <polygon id="Stroke-655" points="7.60869565 17.5 7.60869565 14.4565217 9.89130435 12.173913 12.9347826 12.173913 15.2173913 14.4565217 15.2173913 17.5 12.9347826 19.7826087 9.89130435 19.7826087"></polygon>
+                    <polygon id="Stroke-656" points="19.7826087 17.5 19.7826087 14.4565217 22.0652174 12.173913 25.1086957 12.173913 27.3913043 14.4565217 27.3913043 17.5 25.1086957 19.7826087 22.0652174 19.7826087"></polygon>
+                    <path d="M15.2173913,15 L19.7826087,15" id="Stroke-657"></path>
+                    <polyline id="Stroke-658" points="5.32608696 24.3478261 12.173913 27.8478261 17.5 24.3478261 22.826087 27.8478261 29.673913 24.3478261"></polyline>
+                    <path d="M15.9782609,30 L19.4782609,30" id="Stroke-659"></path>
+                    <polygon id="Stroke-660" points="30.4347826 28.9130435 17.5 35 4.56521739 28.9130435 4.56521739 6.08695652 17.5 0 30.4347826 6.08695652"></polygon>
+                    <polygon id="Stroke-661" points="0 22.826087 4.56521739 25.8695652 4.56521739 16.7391304 0 16.7391304"></polygon>
+                    <polygon id="Stroke-662" points="30.4347826 25.8695652 35 22.826087 35 16.7391304 30.4347826 16.7391304"></polygon>
+                    <polyline id="Stroke-663" points="11.9190217 2.78858696 17.5007609 8.37032609 23.0794565 2.7901087"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

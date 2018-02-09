@@ -1,0 +1,363 @@
+{
+    "_id" : ObjectId("5853c3eafa9dcae89aa79652"),
+    "companyId" : ObjectId("5853c3eafa9dcae89aa79651"),
+    "references" : [
+        {
+            "_id" : ObjectId("5853fb2b45c69401c29aa080"),
+            "description" : "description test value",
+            "name" : "Project name test value"
+        }
+    ],
+    "projectDescription" : "",
+    "projectName" : "",
+    "products" : [
+        {
+            "_id" : ObjectId("5853c3eafa9dcae89aa79653"),
+            "companyId" : ObjectId("5853c3eafa9dcae89aa79652"),
+            "otherProductAttributes" : [
+                {
+                    "_id" : ObjectId("5857bf6ec184293b98616ea2"),
+                    "value" : "other product attributes test value 1",
+                    "label" : "other product attributes test value 1",
+                    "className" : "Select-create-option-placeholder"
+                },
+                {
+                    "_id" : ObjectId("5857bf6ec184293b98616ea1"),
+                    "value" : "other product attributes test value 2",
+                    "label" : "other product attributes test value 2",
+                    "className" : "Select-create-option-placeholder"
+                }
+            ],
+            "segmentsDescription" : "target segments description test value",
+            "businessObjective" : [
+                {
+                    "_id" : ObjectId("5857bf6ec184293b98616ea4"),
+                    "value" : "solves business objective test value 1",
+                    "label" : "solves business objective test value 1",
+                    "className" : "Select-create-option-placeholder"
+                },
+                {
+                    "_id" : ObjectId("5857bf6ec184293b98616ea3"),
+                    "value" : "solves business objective test value 2",
+                    "label" : "solves business objective test value 2",
+                    "className" : "Select-create-option-placeholder"
+                }
+            ],
+            "dataSecurity" : "data security textarea test value",
+            "industryStandards" : "",
+            "implementation" : "implementation test value",
+            "geographicalMarkets" : [
+                {
+                    "_id" : ObjectId("5857bf6ec184293b98616ea6"),
+                    "value" : "geo markets served test value 1",
+                    "label" : "geo markets served test value 1",
+                    "className" : "Select-create-option-placeholder"
+                },
+                {
+                    "_id" : ObjectId("5857bf6ec184293b98616ea5"),
+                    "value" : "geo markets served test value 2",
+                    "label" : "geo markets served test value 2",
+                    "className" : "Select-create-option-placeholder"
+                }
+            ],
+            "maintenanceDifficulty" : "maintenance difficulty & cost test value",
+            "integrationDifficulty" : "integration difficulty & related costs test value",
+            "delivery" : "delivery/construction time test value",
+            "capacityIndication" : "capacity/scalability test value",
+            "pricingIndication" : "pricing indication test value",
+            "patents" : "patents test value",
+            "requirements" : [],
+            "compatibilities" : [],
+            "technologies" : [
+                {
+                    "_id" : ObjectId("5857bf6ec184293b98616ea8"),
+                    "value" : "tech used in the product test value 1",
+                    "label" : "tech used in the product test value 1",
+                    "className" : "Select-create-option-placeholder"
+                },
+                {
+                    "_id" : ObjectId("5857bf6ec184293b98616ea7"),
+                    "value" : "tech used in the product test value 2",
+                    "label" : "tech used in the product test value 2",
+                    "className" : "Select-create-option-placeholder"
+                }
+            ],
+            "uniqueSellingPoints" : "unique selling points test value",
+            "valueProposition" : "value proposition test value",
+            "productDigitalization" : [
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e33"),
+                    "value" : "digitalization scope test value 1",
+                    "label" : "digitalization scope test value 1",
+                    "className" : "Select-create-option-placeholder"
+                },
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e32"),
+                    "value" : "digitalization scope test value 2",
+                    "label" : "digitalization scope test value 2",
+                    "className" : "Select-create-option-placeholder"
+                }
+            ],
+            "keyResources" : [
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e35"),
+                    "value" : "reduces/improves key resources test value 1",
+                    "label" : "reduces/improves key resources test value 1",
+                    "className" : "Select-create-option-placeholder"
+                },
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e34"),
+                    "value" : "reduces/improves key resources test value 2",
+                    "label" : "reduces/improves key resources test value 2",
+                    "className" : "Select-create-option-placeholder"
+                }
+            ],
+            "keyActivities" : [
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e37"),
+                    "value" : "performs/supports key activities test value 1",
+                    "label" : "performs/supports key activities test value 1",
+                    "className" : "Select-create-option-placeholder"
+                },
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e36"),
+                    "value" : "performs/supports key activities test value 2",
+                    "label" : "performs/supports key activities test value 2",
+                    "className" : "Select-create-option-placeholder"
+                }
+            ],
+            "businessType" : [
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e39"),
+                    "value" : "application for business type test value 1",
+                    "label" : "application for business type test value 1",
+                    "className" : "Select-create-option-placeholder"
+                },
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e38"),
+                    "value" : "application for business type test value 2",
+                    "label" : "application for business type test value 2",
+                    "className" : "Select-create-option-placeholder"
+                }
+            ],
+            "applicationValeChain" : [
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e3b"),
+                    "value" : "value chain position test value 1",
+                    "label" : "value chain position test value 1",
+                    "className" : "Select-create-option-placeholder"
+                },
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e3a"),
+                    "value" : "value chain position test value 2",
+                    "label" : "value chain position test value 2",
+                    "className" : "Select-create-option-placeholder"
+                }
+            ],
+            "applicationSector" : "Energy Equipment & Services",
+            "applicationIndustry" : "Commercial & Professional Services",
+            "problemSolved" : "problem solved test value",
+            "solution" : [
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e3e"),
+                    "value" : "Enterprise Security",
+                    "label" : "Enterprise Security",
+                    "className" : ""
+                },
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e3d"),
+                    "value" : "Enterprise Networking",
+                    "label" : "Enterprise Networking",
+                    "className" : ""
+                },
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e3c"),
+                    "value" : "custom production solution value",
+                    "label" : "custom production solution value",
+                    "className" : "Select-create-option-placeholder"
+                }
+            ],
+            "digitalProductCategory" : [
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e40"),
+                    "value" : "product category test value 1",
+                    "label" : "product category test value 1",
+                    "className" : "Select-create-option-placeholder"
+                },
+                {
+                    "_id" : ObjectId("5857ba3dc184293b98616e3f"),
+                    "value" : "product category test value 2",
+                    "label" : "product category test value 2",
+                    "className" : "Select-create-option-placeholder"
+                }
+            ],
+            "productName" : "Product name test value"
+        }
+    ],
+    "digitalizationLevelSupport" : "Digital communication & documentation",
+    "supportFunction" : "Information Technology",
+    "digitalizationLevelSC" : "Digital communication & documentation",
+    "valueChain" : "Operations",
+    "otherOnline" : [
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e31"),
+            "name" : "Other contact value 1"
+        },
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e30"),
+            "name" : "Other contact value 2"
+        }
+    ],
+    "twitter" : "@twitter_testvalue",
+    "linkedIn" : "linkedin-testvalue",
+    "facebook" : "facebook-testvalue",
+    "skype" : "skype.testvalue",
+    "email" : "email@testvalue.com",
+    "phone" : "123456789",
+    "companyWebsite" : "website value",
+    "totalFundingObtain" : "999999999",
+    "revenue" : "999999999",
+    "revenueStreams" : "",
+    "channels" : "",
+    "customerSegments" : "customer segments text area value",
+    "customerRelationships" : "customer relationships text area value",
+    "valueProposition" : "value proposition text area value",
+    "costStructure" : "Cost structure text area value",
+    "keyResources" : "key resources text area value",
+    "keyActivities" : "Key activities textarea value",
+    "otherBusinessRelationships" : [
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e2f"),
+            "name" : "Other business relationship name 1",
+            "type" : "Other business relationship type 1"
+        },
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e2e"),
+            "name" : "Other business relationship name 2",
+            "type" : "Other business relationship type 2"
+        }
+    ],
+    "investors" : [
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e2d"),
+            "name" : "Investor value 1"
+        },
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e2c"),
+            "name" : "Investor value 2"
+        }
+    ],
+    "strategicPartners" : [
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e2b"),
+            "name" : "Strategic partner name 1"
+        },
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e2a"),
+            "name" : "Strategic partner name 2"
+        }
+    ],
+    "suppliers" : [
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e29"),
+            "name" : "Supplier name 1"
+        },
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e28"),
+            "name" : "Supplier name 2"
+        }
+    ],
+    "customers" : [
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e27"),
+            "name" : "Customer name value 1"
+        },
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e26"),
+            "name" : "Customer name value 2"
+        }
+    ],
+    "collaborators" : [
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e25"),
+            "name" : "Team member name 1",
+            "position" : "Job position 1"
+        },
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e24"),
+            "name" : "Team member name 2",
+            "position" : "Job position 2"
+        }
+    ],
+    "othercompanyAttributes" : [
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e23"),
+            "value" : "My other company attribute 1",
+            "label" : "My other company attribute 1",
+            "className" : "Select-create-option-placeholder"
+        },
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e22"),
+            "value" : "My other company attribute 2",
+            "label" : "My other company attribute 2",
+            "className" : "Select-create-option-placeholder"
+        }
+    ],
+    "vision" : "My vision value",
+    "mission" : "My mission value",
+    "technologies" : "",
+    "processesOperations" : "",
+    "ftes" : "6-10",
+    "languages" : [
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e21"),
+            "value" : "German",
+            "label" : "German",
+            "className" : ""
+        },
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e20"),
+            "value" : "Hebrew",
+            "label" : "Hebrew",
+            "className" : ""
+        },
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e1f"),
+            "value" : "Hindi",
+            "label" : "Hindi",
+            "className" : ""
+        }
+    ],
+    "streetAddress" : "Ackerstraße",
+    "zipCode" : "10115",
+    "homeMarket" : "Europe",
+    "locations" : [
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e1e"),
+            "value" : "Location value 1",
+            "label" : "Location value 1",
+            "className" : "Select-create-option-placeholder"
+        },
+        {
+            "_id" : ObjectId("5857ba3dc184293b98616e1d"),
+            "value" : "Location value 2",
+            "label" : "Location value 2",
+            "className" : "Select-create-option-placeholder"
+        }
+    ],
+    "country" : "Germany",
+    "headquarters" : "Berlin",
+    "yearEstablished" : "2016",
+    "subSector" : "Personal Products",
+    "sector" : "IT Services",
+    "industry" : "Information Technology",
+    "legalForm" : "Limited partnership",
+    "businessType" : "Software producer",
+    "organizationType" : "Small Enterprise",
+    "companyDescription" : "My test company description value",
+    "slogan" : "My test slogan value",
+    "statusLive": "Not Live",
+    "companyName" : "Company Name test",
+    "logoURI" : "companylogo-5853c3eafa9dcae89aa79652.png",
+    "__v" : 0
+}

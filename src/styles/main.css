@@ -1,0 +1,336 @@
+@import './common/fonts.scss';
+@import './common/fluids.scss';
+@import './common/mediaqueries.css';
+@value mobile,tablet,computer,monitor,widescreen from "./common/breakpoints.css";
+
+body {
+  background: #f7f7f7;
+}
+
+body, div, h1, h2, h3, h5, h6 {
+  font-family: 'Catamaran';
+}
+
+label{
+  font-family: 'Catamaran-Light';
+  font-size: 12px;
+}
+
+.sticky{
+  position:relative!important;
+  width: 100%!important;
+}
+.save-cancel-button-company{
+  @media mobile{
+  top:10px!important;
+  }
+}
+.company-description-move{
+  @media mobile{
+  top: 20px!important;
+  }
+}
+.save-cancel-edit-button-gen{
+  @media mobile{
+  top:4rem !important;
+  }
+}
+.save-cancel-edit-button-financial {
+  @media mobile{
+    top: -3px !important;
+  }
+}
+.save-cancel-edit-button-BMC {
+  @media mobile{
+    top: 3px !important;
+  }
+  @media tablet{
+    top: -30px !important;
+  }
+}
+.lastCard-generic{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.firstCard-generic{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 2px 4px 0 #e7e7e7;
+}
+
+.save-cancel-edit-button-product{
+  @media mobile{
+    margin-top: -4rem !important;
+  }
+}
+.save-cancel-edit-button-reference{
+  @media mobile{
+    margin-top: 0.8rem!important;
+    top:-60px !important;
+  }
+}
+
+.newsFeed-text{
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  margin-left: auto;
+  font-family: 'Catamaran-Medium';
+}
+
+.twitter_feeds {
+  position: fixed;
+  top: 103px;
+  margin-left: 7px;
+  @media tablet{
+    top: 117px;
+  }
+}
+
+
+.twitter_blog_feeds {
+  position: fixed;
+  top: 109px;
+  margin-left: 1.5rem;
+  @media tablet{
+    top: 117px;
+  }
+}
+
+.button:focus,
+.button:hover,
+.button:active{
+  text-decoration: none;
+}
+
+.no-gutter-left {
+  padding-left: 0px;
+}
+.no-gutter-right{
+  padding-right: 0px;
+}
+
+.no-gutter{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.common-background{
+  background-color: #f7f7f7;
+  min-height: 100%;
+}
+.without-border{
+  border:none !important;
+  color: #9b9b9b !important;
+}
+
+.rw-widget.rw-state-focus, .rw-widget.rw-state-focus:hover, .rw-dropdownlist:hover{
+  box-shadow: none !important;
+  border: 1px solid #cbcbcb !important;
+  background-color: #FFFFFF !important;
+}
+
+.dropzone {
+  min-height: 0px!important;
+  border: none!important;
+  background: none!important;
+  padding: 0px!important;
+}
+
+#app,.app{
+  width: 100%;
+  height: 100vh;
+}
+
+.app > section{
+  /*height: 100%;*/
+}
+
+.redux-tooltip--customised {
+  /*
+   * Ben: These `!important` statements are super-suboptimal but it's the only
+   * way to override the redux-tooltip lib defaults.
+   */
+
+  position: fixed !important;
+  top: 60% !important;
+  left: 73% !important;
+  min-width: 19% !important;
+  height: 90px!important;
+  border: 2px solid #8edd65;
+  box-shadow: none !important;
+  &-arrow {
+    visibility: hidden; /* hide the "speech bubble"-style triangle on the box */
+  }
+  @media monitor{
+    left: 68.5% !important;
+    right: 60px!important;
+    max-width: 18% !important;
+  }
+  @media tablet{
+    left: 75% !important;
+    right: 60px;
+  }
+  @media widescreen{
+    left: 65%!important;
+    max-width: 25% !important;
+  }
+}
+
+.section-chevron {
+  font-size: medium !important;
+  margin-left: 15px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.company-logo {
+  &--container {
+    float: left;
+  }
+  &--img {
+    max-width: 70px;
+    min-height: 70px;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    display: block;
+    &-edit {
+      max-width: 70px;
+      min-height: 70px;
+      border-radius: 5px;
+      border: 1px solid #d8d8d8;
+      display: block;
+      margin-left: 13px;
+    }
+  }
+  &--btn {
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    padding: 3px 5px;
+    letter-spacing: 1px;
+    display: block;
+  }
+  &--text-help {
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+}
+
+.card-generic {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 10px;
+  position: relative;
+
+  &.no-padding {
+    padding: 0px;
+    .card-header {
+      padding: 30px;
+      h3{
+        letter-spacing: 1.5px;
+        color: #4a4a4a;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 0px;
+      }
+    }
+    .card-content {
+      border-bottom: 2px solid #e7e7e7;
+      padding: 20px 30px;
+    }
+  }
+}
+
+.label-generic {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  min-height: 16px;
+  font-family: 'Catamaran-Light';
+}
+
+.collapsible-card--title{
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+  padding-bottom: 0px;
+  font-family: 'Catamaran-Bold';
+  cursor: pointer;
+}
+
+.flex-row-spaced{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+/* Bogdan CSS */
+.grid-profile{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 5%;
+}
+
+
+.logo-header-landing{
+  /* padding-left: 12rem; */
+  height: 30px;
+}
+
+.inline-icon{
+  display: inline !important;
+  margin-left: 7px;
+}
+
+.icon-app{
+  margin-left: 7px;
+  font-size: 12px;
+}
+
+.comp-cancel-save-edit{
+  top: 10px !important;
+  margin-right: -1rem;
+}
+
+/*.projectFile-loc{
+  @media computer{
+    position: absolute;
+    left: 37rem;
+    bottom: 12rem;
+  }
+  @media tablet{
+    position: absolute;
+    left: 41rem;
+    bottom: 13rem;
+  }
+}*/
+
+#image{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.buttonsCrop{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cropCenter{
+  display: flex;
+  justify-content: center;
+}
+.loaderCrop{
+  margin-top:25rem;
+}
+.bottom-spacing{
+  padding-bottom: 8px;
+}

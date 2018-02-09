@@ -1,0 +1,22 @@
+@import 'colors';
+
+.button{
+  background-color: #FF6D6A;
+  color: #fefefe;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  padding: 0.85em 2em;
+  margin: 0 0 1rem 0;
+  &--small{
+    font-size: 0.75rem;
+    height: 35px;
+  }
+}

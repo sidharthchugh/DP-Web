@@ -1,0 +1,398 @@
+@value mobile,tablet,computer,monitor,widescreen from "../common/breakpoints.css";
+
+.profile-page-right-sidebarnav{
+  position: fixed;
+  top: 97px;
+  margin-top: 0px;
+  padding: 20px;
+  margin-left: 10px;
+  @media widescreen{
+    bottom: 0px;
+    top: 65px;
+    margin-top: 32px;
+    width: 300px;
+  }
+  @media monitor{
+    margin-top: 0rem;
+    bottom: 20px;
+    width: 300px;
+  }
+  @media computer{
+    bottom: 0px;
+    top: 108px;
+    margin-top: 0rem;
+    width: 300px;
+  }
+}
+
+
+.profile-page-right-sidebarnavSearch{
+  position: fixed;
+  top: 103px;
+  margin-top: 0px;
+  padding: 20px;
+  @media widescreen{
+    bottom: 0px;
+    top: 68px;
+    margin-top: 2rem;
+    width: 300px;
+  }
+  @media monitor{
+    margin-top: -6px;
+    bottom: 20px;
+    width: 300px;
+  }
+  @media computer{
+    bottom: 0px;
+    top: 108px;
+    margin-top: 0rem;
+    width: 300px;
+  }
+}
+
+.profile-page-right-sidebarnavProj{
+  position: fixed;
+  top: 97px;
+  margin-top: 1rem;
+  padding: 20px;
+  @media widescreen{
+    bottom: 0px;
+    top: 59px;
+    margin-top: 51px;
+    width: 300px;
+  }
+  @media monitor{
+    margin-top: 1rem;
+    bottom: 20px;
+    width: 300px;
+  }
+  @media computer{
+    bottom: 0px;
+    top: 108px;
+    margin-top: 18px;
+    width: 300px;
+  }
+}
+
+.profile-page-right-sidebarnavSettings{
+  position: fixed;
+  top: 97px;
+  margin-top: 1rem;
+  margin-left: 7px;
+  padding: 20px;
+  @media widescreen{
+    bottom: 0px;
+    top: 65px;
+    margin-top: 19px;
+    width: 300px;
+  }
+  @media monitor{
+    margin-top: -1rem;
+    bottom: 20px;
+    width: 300px;
+  }
+  @media computer{
+    bottom: 0px;
+    top: 108px;
+    margin-top: -.5rem;
+    width: 300px;
+  }
+}
+
+.profile-page-right-sidebarnavMatch{
+  position: fixed;
+  top: 97px;
+  margin-top: 1rem;
+  margin-left: 7px;
+  padding: 20px;
+  @media widescreen{
+    bottom: 0px;
+    top: 65px;
+    margin-top: 12px;
+    width: 300px;
+  }
+  @media monitor{
+    margin-top: -20px;
+    bottom: 20px;
+    width: 300px;
+  }
+  @media computer{
+    bottom: 0px;
+    top: 108px;
+    margin-top: -.5rem;
+    width: 300px;
+  }
+}
+
+
+.nav{
+  font-size: 14px;
+
+  box-shadow: 0 2px 4px 0 #e7e7e7;
+  background-color: #FFFFFF;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 324px;
+  width: 290px;
+  overflow:hidden;
+  float: left;
+  position: absolute;
+  left: 0px;
+  letter-spacing: 0.6;
+  padding: 20px 0px;
+  & > span{
+    padding-right: 10px;
+  }
+  &:hover {
+    overflow-y:auto;
+  }
+
+}
+/*.profile-page-left-sidebar {
+  background-color: #f9f9f9;
+  width: 100px;
+  overflow-y: scroll;
+  float: left;
+  position: absolute;
+  left: 0px;
+
+
+  .sidebar-list {
+    li a {
+      padding: 0.8em;
+      color: #696969;
+      font-size: 1.5em;
+    }
+  }
+}*/
+
+/*li{
+  font-size:10px;
+}*/
+
+ul {
+  list-style: none; /* Remove list bullets */
+}
+
+.lid::before {
+  content: "•"; /* Insert content that looks like bullets */
+  padding-right: 10px;
+  color: #d8d8d8;
+  font-size:30px;
+  position: absolute;
+  margin-top: -16px;
+  left: 0rem;
+}
+
+.search-margin{
+  margin-left:0px!important;
+}
+
+.project-margin{
+  margin-left:-2rem!important;
+}
+
+.sidebar-grid{
+  padding-top: 0rem!important;
+padding-bottom: 0rem!important;
+}
+
+.projectSidebar-grid{
+  padding-top: 0rem!important;
+  padding-bottom: 0rem!important;
+}
+
+  .sidebar-header1{
+    margin-bottom: 20px !important;
+    margin-right: 0;
+    margin-top: 2px;
+    color:black;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Catamaran-Bold';
+    letter-spacing: 1.4px;
+    color: #4a4a4a;
+    max-width: 18rem;
+    word-break: break-word;
+  }
+  .sidebar-header1M{
+    margin-top:-7px !important;
+  }
+  .sidebar-headertitle{
+    margin-bottom: 18px !important;
+    margin-right: 0;
+    margin-top: 2px;
+    padding-top: 10px;
+    color: #4a4a4a;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Catamaran-Light';
+    letter-spacing: 1px;
+    cursor: default;
+    text-transform:uppercase;
+  }
+   .sidebar-headerpro{
+    margin-right: 0;
+    margin-top: -13px !important;
+    text-align: left;
+    font-size:16px;
+    font-weight: 500;
+    font-family: 'Catamaran-Bold';
+    letter-spacing: 1.4px;
+    color: #4a4a4a;
+    text-transform: initial;
+  }
+  .sidebar-header2{
+    margin-bottom: 14px !important;
+    margin-right: 0;
+    margin-right: 3px;
+    font-size: 14px;
+    margin-top:-10px;
+    color:black;
+    text-align: left;
+    font-weight: 300;
+    margin-left: -1rem;
+    line-height: 2;
+    font-family: 'Catamaran-Light';
+    letter-spacing: 1.4px;
+    word-break: break-word;
+  }
+  #comments{
+    width: 270px;
+	  height: 295px;
+    margin-left: 10px;
+    position: relative;
+  }
+  #profile{
+   	width: 270px;
+	  height: 295px;
+    position: relative;
+    margin-left: 10px;
+  }
+  #match{
+    width: 270px;
+	  height: 283px;
+    position: relative;
+    margin-left: 21px;
+    top: -5px;
+  }
+   .saved-card{
+    position: relative;
+    .search-details{
+      color: #4a4a4a;
+      font-size: 16px;
+      padding-bottom: 10px;
+      font-family: Catamaran-SemiBold;
+      height: 34px;
+      text-align: left;
+      margin-bottom: 20px;
+      margin-top: 5px;
+      text-align: left;
+      font-weight: 300;
+      letter-spacing: 1.4px;
+      color: #4a4a4a;
+      text-transform: uppercase;
+      span{
+        font-family: 'Catamaran';
+        color:black;
+      }
+    }
+ }
+
+  .details-search{
+      margin-bottom: 2px !important;
+      margin-left: -15px;
+    }
+
+  .project-sidebar{
+    color:black;
+    margin-right: 0 !important;
+    margin-top: 2px !important;
+    font-family: 'Catamaran' !important;
+    letter-spacing: 0 !important;
+    text-align: left;
+    :hover {
+      color:black;
+    }
+  }
+
+  .product-sidebar{
+    color:black;
+    width: 70% !important;
+    margin-bottom: 14px !important;
+    margin-right: 0 !important;
+    margin-top: 2px !important;
+    font-family: 'Catamaran' !important;
+    letter-spacing: 0 !important;
+    text-align: left;
+    :hover {
+      color:black;
+    }
+  }
+  .heading2-pad{
+    padding-left: 10px !important;
+    margin-bottom: 0px !important;
+  }
+
+    .heading2-padding{
+    padding-left: 15px !important;
+  }
+  .marg-search{
+    margin-top: 0px!important;
+    margin-left: 0px!important;
+  }
+
+  .margin-header1{
+    margin-bottom: 0px !important;
+    margin-right: 0;
+    margin-top: 2px;
+    color:black;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Catamaran-Bold';
+    letter-spacing: 1.4px;
+    color: #4a4a4a;
+    max-width: 18rem;
+    padding-right: 7px;
+    word-break: break-word;
+  }
+
+  .margin-header3{
+    margin-bottom: 0px !important;
+    margin-left: 13px;
+    margin-top: 2px;
+    color:black;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Catamaran-Bold';
+    letter-spacing: 1.4px;
+    color: #4a4a4a;
+    max-width: 18rem;
+    padding-right: 7px;
+    word-break: break-word;
+  }
+
+    .margin-header2{
+    margin-bottom: -9px !important;
+    margin-right: 0;
+    margin-right: 3px;
+    font-size: 14px;
+    margin-top:-12px;
+    color:black;
+    text-align: left;
+    font-weight: 300;
+    margin-left: -1rem;
+    line-height: 2;
+    font-family: 'Catamaran-Light';
+    letter-spacing: 1.4px;
+    word-break: break-word;
+  }
+
+.marginR{
+  margin-right:20px;
+}

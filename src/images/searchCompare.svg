@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="37px" viewBox="0 0 45 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-Page-old" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Landing-Page-v2" transform="translate(-698.000000, -1039.000000)" stroke-width="2" stroke="#000000">
+            <g id="Group" transform="translate(699.000000, 1040.000000)">
+                <polygon id="Stroke-466" points="10.1315789 35 0 17.5 10.1315789 0 32.2368421 0 42.3684211 17.5 32.2368421 35"></polygon>
+                <polygon id="Stroke-467" points="28.5526316 9.21052632 10.1315789 0 8.28947368 20.2631579 10.1315789 35 29.4736842 31.3157895 42.3684211 17.5"></polygon>
+                <polygon id="Stroke-468" points="28.5526316 9.21052632 8.28947368 20.2631579 29.4736842 31.3157895"></polygon>
+                <path d="M32.9736842,35 L29.4736842,31.3157895" id="Stroke-469"></path>
+                <path d="M0,17.5 L8.28947368,21" id="Stroke-470"></path>
+                <path d="M32.2368421,0 L28.5526316,9.21052632" id="Stroke-471"></path>
+            </g>
+        </g>
+    </g>
+</svg>

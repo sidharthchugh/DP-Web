@@ -1,0 +1,92 @@
+exports[`test SearchBoxComponent renders correctly 1`] = `
+<form
+  className="search-form">
+  <div
+    className="small-12 columns no-padding-left-right search-card base-search">
+    <h3>
+      Search Preferences
+    </h3>
+    <div
+      className="row">
+      <div
+        className="small-12 columns">
+        <div
+          className="base-search-wrapper">
+          <div
+            className="search-label">
+            Choose your type of search
+          </div>
+          <div
+            className="row">
+            <div
+              className="small-12 medium-7 large-6 columns">
+              <div
+                className="edit-field">
+                <div
+                  aria-autocomplete="list"
+                  aria-busy={false}
+                  aria-disabled={false}
+                  aria-expanded={false}
+                  aria-haspopup={true}
+                  aria-live="polite"
+                  aria-owns="rw_1__listbox"
+                  aria-readonly={false}
+                  className="rw-dropdownlist rw-widget"
+                  name="searchTypeDropdown"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyPress={[Function]}
+                  placeholder="Choose your type of search"
+                  role="combobox"
+                  tabIndex={0}>
+                  <span
+                    aria-disabled={undefined}
+                    aria-label="open dropdown"
+                    className="rw-dropdownlist-picker rw-select rw-btn"
+                    disabled={undefined}
+                    tabIndex="-1"
+                    title="open dropdown"
+                    type={undefined}>
+                    <span
+                      aria-hidden={true}
+                      className="rw-i rw-i-caret-down" />
+                  </span>
+                  <div
+                    className="rw-input">
+                    <span
+                      className="rw-placeholder">
+                      Choose your type of search
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="small-12 medium-5 large-6 columns text-right button-actions">
+              <input
+                className="secondary button hollow without-border cancel-search"
+                onClick={[Function]}
+                type="button"
+                value="Cancel" />
+              <input
+                className="alert button save-search"
+                onClick={[Function]}
+                type="button"
+                value="Save Search" />
+            </div>
+            <p
+              className="small-12 columns search-note">
+              <span>
+                Note:
+              </span>
+               If you do not specify search details, we will provide you with matches based on your profile.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+`;

@@ -1,0 +1,243 @@
+@value mobile,tablet,computer,monitor,widescreen from "../common/breakpoints.css";
+
+.settings-label{  
+  margin-top: 10px!important;
+}
+
+.settings-page{
+  margin-bottom: 0rem !important;
+  .profile-card.edit-mode .profile-label {
+    display: block;
+  }
+  .section{
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .settingsPage-value{
+    margin-bottom: 20px;
+    max-width: 400px;
+    min-width: 23rem;
+    @media mobile {
+      min-width: 23rem;
+    }
+  }
+  .profile-header{
+    .profile-button{
+      background-color: #d8d8d8;
+      &:hover {
+        background-color: #d8d8d8;
+      }
+    }
+    .settings-button{
+      color: #000000;
+      img{
+        filter: invert(100%);
+      }
+    }
+  }
+  position: relative;
+  .input-background-white{
+    input{
+      background-color: #FFFFFF;
+    }
+  }
+  .placeholder-center{
+    ::-webkit-input-placeholder {
+      text-align: center;
+    }
+    :-moz-placeholder {
+      text-align: center;
+    }
+    ::-moz-placeholder {
+      text-align: center;
+    }
+    :-ms-input-placeholder {
+      text-align: center;
+    }
+  }
+  .change-password-actions button{
+    &:first-child{
+      height: 35px;
+      width: 140px;
+      font-size: 16px!important;
+      float: right;
+      margin-right: 18rem;
+      text-transform: uppercase;
+      padding: 7px 30px;
+    }
+  }
+  .change-password{
+    h3{
+      margin-bottom: 0px;
+      margin-left: 0px;
+      @media tablet{
+        margin-left: 0px;
+      }
+      @media mobile{
+        margin-left: 0px;
+      }
+      & > button{
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+        font-size: 24px;
+        &:hover,
+        &:active,
+        &:focus{
+          outline-style: none;
+        }
+      }
+    }
+    input[type="password"]{
+      margin-bottom: 10px;
+      margin-left: 0px;
+      @media tablet{
+        margin-left: 0px;
+      }
+      @media mobile{
+        margin-left: 0px;
+      }
+    }
+  }
+}
+.bigger-input{
+  .profile-value{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  input{
+    padding: 10px 10px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    height: 3.1rem;
+  }
+}
+.position{
+  .profile-value, input{
+    font-size: 20px;
+  }
+}
+.logout{
+  font-family: Catamaran;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: right;
+  color: #ff6d6a;
+  margin-right: 2rem !important;
+}
+
+.delete-account{
+  font-family: Catamaran;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: right;
+  color: #ff6d6a;
+  width: 135px!important;
+}
+
+.settings-bottom {
+  padding-bottom:9rem;
+}
+
+.change-password-button{
+  width: 11rem!important;
+}
+
+.validation{
+  padding-left: 18px;
+  color: red;
+}
+
+.cancel-button {
+  padding:0px;
+  font-size: 16px!important;
+  margin-left: 1rem;
+  width: 140px;
+  background-color: #d8d8d8!important;
+  height: 35px;
+  color: #fefefe!important;
+  text-transform: uppercase;
+}
+
+.settings-page-content{
+  position: relative;
+  .profile-card{
+    .left-content{
+      border-right: none;
+    }
+  }
+}
+
+.validation {
+    padding-left: 18px;
+    color: red;
+    width: 11rem;
+    margin-top: -4px;
+}
+
+/* Edit settings */
+a.edit-button.edit-settings{
+
+  /*top: -35px;
+  right:20px;*/
+
+  top: 36px;
+  right: 2rem;
+
+
+  /*@media computer{
+    top: -54px;
+  }*/
+  @media mobile{
+    top: 30px;
+  }
+
+}
+.save-settings{
+
+  /*top: -35px;
+  right:20px;*/
+
+  top: 36px;
+  right: 2rem;
+
+
+  /*@media computer{
+    top: -54px;
+  }*/
+  @media mobile{
+    top: 30px;
+  }
+
+}
+
+#setting-save-cancel-wrapper{
+  position: relative;
+
+  /*top: -40px;
+  right: 20px;*/
+
+  top: 33px;
+  right: 2rem;
+
+  @media tablet{
+    position: relative;
+    bottom: 55%;
+    right: 2rem;
+    top: -40px;
+    right: 20px;
+  }
+  @media mobile{
+    position: relative;
+    bottom: 55%;
+    right: 1rem;
+    top: 40px;
+  }
+}
+
+.topSettings{
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,9 @@
+{
+ "apps" : [{
+   "name"       : process.env.Name||'webapp-test',
+   "script"     : "compiled/index.js",
+   "instances"  : process.env.Instances||'max',
+   "node_args" :  '--max_old_space_size=4096',
+   "exec_mode"  : process.env.Mode||'cluster'
+ }]
+}

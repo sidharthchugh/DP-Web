@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="35px" viewBox="0 0 38 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Landing-Page-v2" transform="translate(-308.000000, -1045.000000)" stroke="#000000">
+            <g id="Group" transform="translate(308.000000, 1045.000000)">
+                <path d="M26.6304348,31.7490119 L20.9815547,24.486166" id="Stroke-472"></path>
+                <polygon id="Stroke-473" points="20.9815547 24.486166 18.5606061 0.276679842 16.1396574 24.486166"></polygon>
+                <polygon id="Stroke-474" points="23.4025033 13.9953887 24.2094862 5.92555995 35.5072464 3.50461133 30.6653491 13.9953887"></polygon>
+                <path d="M29.0513834,9.15349144 L23.4025033,13.9953887" id="Stroke-475"></path>
+                <path d="M10.4907773,31.7490119 L16.1396574,24.486166" id="Stroke-476"></path>
+                <polyline id="Stroke-477" points="12.6509091 28.971861 6.45650856 26.9075988 0.000645586298 34.9774275 37.1218577 34.9774275 30.6659947 26.9075988 24.4699802 28.971861"></polyline>
+                <polygon id="Stroke-478" points="13.7187088 13.9953887 12.911726 5.92555995 1.61396574 3.50461133 6.45586298 13.9953887"></polygon>
+                <path d="M8.06982872,9.15349144 L13.7187088,13.9953887" id="Stroke-479"></path>
+            </g>
+        </g>
+    </g>
+</svg>

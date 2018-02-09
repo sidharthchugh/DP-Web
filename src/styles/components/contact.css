@@ -1,0 +1,96 @@
+@value mobile,tablet,computer,monitor,widescreen from "../common/breakpoints.css";
+
+.imprint-footer{
+  margin-bottom: 14rem;
+  @media widescreen{
+    margin-bottom: 37rem;
+  }
+}
+
+.contact-page-card{
+  margin-top: 1rem!important;
+}
+
+.contact-page{
+  background-color: #f7f7f7;
+  .profile-header{
+    .profile-button{
+      background-color: #d8d8d8;
+      &:hover {
+        background-color: #d8d8d8;
+      }
+    }
+  }
+
+  .imprint-footer{
+  margin-bottom: 13rem;
+  @media widescreen{
+    margin-bottom: 37rem;
+  }
+}
+  .profile-card {
+    padding-bottom: 8rem;
+    .character-counter {
+      display: none;
+    }
+  }
+  min-height: 100%;
+  .contact-form{
+    position: relative;
+  }
+  .contact-content-header{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.67;
+    letter-spacing: 3px;
+    color: #000000;
+    margin-bottom: 36px;
+    font-family: "Catamaran-Bold";
+  }
+  .sub-heading{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.14;
+    letter-spacing: 1.4px;
+    color: #4a4a4a;
+    border-bottom: solid 1px #d8d8d8;
+    padding-bottom: 10px;
+    font-family: 'Catamaran';
+  }
+  .contact-heading{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.14;
+    letter-spacing: 1.4px;
+    padding-top:10px;
+    color: #4a4a4a;
+  }
+  .contact-info{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.33;
+    letter-spacing: 1.2px;
+    color: #4a4a4a;
+  }
+  .contact-button{
+    padding: 10px 42px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .validation{
+    color: red;
+  }
+  .contact-form{
+    border-top: solid 1px #d8d8d8;
+    input{
+      margin-top: 20px;
+      margin-bottom: 10px;
+      min-width: 10.2rem;
+    }
+    textarea{
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  }
+}

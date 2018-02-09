@@ -1,0 +1,100 @@
+@value mobile,tablet,computer,monitor,widescreen from "../../common/breakpoints.css";
+
+.no-vertical-margin{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.no-vertical-padding{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.no-gutter{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/* Profile General Information */
+
+.company-info{
+}
+
+.column-collaborators{
+  display: inline-block;
+  margin: auto;
+  width: 41%;
+  margin-right: 1rem;
+  padding-right: 1%;
+  @media monitor{
+    width: 41%;
+    display: inline-block;
+  }
+  @media computer{
+    width: 41%;
+    display: inline-block;
+  }
+  @media tablet{
+    width: 41%;
+    display: inline-block;
+  }
+}
+
+.column-projects{
+  display: inline-block;
+  margin: auto;
+  width: 33%;
+  margin-right: 1rem;
+  padding-right: 1%;
+  @media monitor{
+    width: 33%;
+    display: inline-block;
+  }
+  @media computer{
+    width: 33%;
+    display: inline-block;
+  }
+  @media tablet{
+    width: 33%;
+    display: inline-block;
+  }
+}
+
+.column-remove-button{
+  vertical-align: top;
+  width: 5%;
+  display: inline-block;
+}
+
+.column-business-relationships-label{
+  padding-right: 5%;
+  width: 90%;
+  display: inline-block;
+}
+
+.column-business-relationships-field{
+  padding-right: 5%;
+  width: 95%;
+  display: inline-block;
+}
+
+.column-business-relationships-field-other{
+  padding-right: 5%;
+  width: 42%;
+  display: inline-block;
+}
+
+.column-digitalization-label{
+  padding-right: 5%;
+  width: 90%;
+  display: inline-block;
+}
+
+.column-digitalization-field{
+  padding-right: 5%;
+  width: 45%;
+  display: inline-block;
+}
+
+
+/* Profile General Information */

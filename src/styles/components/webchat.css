@@ -1,0 +1,70 @@
+.launcher__button {
+  background-image: url('https://digital-4197.kxcdn.com/chat.png')!important;
+  cursor: pointer!important;
+  background-repeat: no-repeat!important;
+  background-color: transparent!important;
+  border: none!important;
+  height: 70px!important;
+  width: 70px!important;
+  bottom:124px!important;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 767px){
+  .launcher__preview {
+    display:none!important;
+  }
+  .kwikchat{
+    display:none!important;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .launcher__preview {
+    display:none!important;
+  }
+  .kwikchat{
+    display:block!important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  .launcher__preview {
+    bottom: 124px!important;
+  }
+  .kwikchat{
+    display:block!important;
+  }
+
+}
+
+@media screen and (min-width: 1200px){
+  .launcher__preview {
+    bottom: 124px!important;
+  }
+
+}
+
+.conversation__content {
+  position: relative!important;
+  bottom:0px!important;
+  height: 85%!important;
+}
+
+.comment__avatar {
+  display: none;
+}
+
+.container__profile {
+  padding-top: 40px!important;
+}
+
+.admin__name {
+  width: 90px!important;
+}
+
+.messenger__conversation {
+  height: 55%!important;
+  bottom: 124px!important;
+}

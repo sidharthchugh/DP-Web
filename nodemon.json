@@ -1,0 +1,11 @@
+{
+    "verbose": false,
+    "watch": [
+      "src/server.jsx",
+      "src/routes.jsx",
+      "src/helmconfig.js",
+      "src/components/Meta.jsx",
+      "server"
+    ],
+    "exec": "npm run build:dev && babel-node --max_old_space_size=4096 server/index.js"
+}

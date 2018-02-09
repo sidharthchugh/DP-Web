@@ -1,0 +1,252 @@
+@value mobile,tablet,computer,monitor,widescreen from "../common/breakpoints.css";
+
+.LegalLandingPage {
+  background: #F7F7F7;
+  .profile-header{
+    background: rgba(255,255,255,0.89);
+  }
+}
+
+.LegalLandingPage-rectangle_4 {
+  margin-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 135px;
+  background: rgba(255,255,255,0.89);
+}
+
+.LegalLandingPage-group{
+  height: 50px;
+  width: 254px;
+  margin-right: 426px;
+  float: left;
+}
+
+.LegalLandingPage-i_m_a_Seeker{
+  margin-top: 14px;
+  margin-right: 40px;
+  font-family: Catamaran-Medium;
+  font-size: 14px;
+  color: #FF6D6A;
+  letter-spacing: 1px;
+  float: left;
+}
+
+.legalpa{
+  margin-left: 3rem;
+  font-family: Catamaran-Light;
+  font-size: 12px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  line-height: 18px;
+  display: block;
+  text-align: justify;
+  word-break: break-all;
+}
+
+.legalIndent{
+  margin-left: -1.3rem;
+}
+
+.legal-indent{
+  margin-left: 2.5rem;
+  font-family: Catamaran-Light;
+  font-size: 12px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  line-height: 18px;
+  display: block;
+  text-align: justify;
+  word-break: break-all;
+}
+
+.legal-container{
+  margin-bottom: 2rem;
+}
+
+
+.legal-secondindent{
+  margin-left: 1.7rem;
+  font-family: Catamaran-Light;
+  font-size: 12px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  line-height: 18px;
+  display: block;
+  text-align: justify;
+  word-break: break-all;
+}
+
+.LegalLandingPage-i_m_a_Provider {
+  margin-top: 14px;
+  margin-right: 40px;
+  font-family: Catamaran-Medium;
+  font-size: 14px;
+  color: #FF6D6A;
+  letter-spacing: 1px;
+  float: left;
+}
+
+.legal-comp{
+  font-size: 17px;
+}
+
+.LegalLandingPage-rectangle_2_Copy_2 {
+  height: 40px;
+  width: 100px;
+  margin-top: 5px;
+  margin-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #0076A5;
+  float: left;
+}
+
+.LegalLandingPage-log_In {
+  font-family: Catamaran-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.LegalLandingPage-rectangle_2_Copy_4 {
+  height: 40px;
+  width: 100px;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #FF6D6A;
+  float: left;
+}
+
+.LegalLandingPage-sign_Up {
+  font-family: Catamaran-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.LegalLandingPage-privacy_Policy___Dat{
+  margin-bottom: 25px;
+  margin-top: 50px !important;
+  font-family: Catamaran;
+  font-size: 20px;
+  color: #4A4A4A;
+  letter-spacing: 1.5px;
+  line-height: 20px;
+}
+
+.LegalLandingPage-datenschutz_Die_Betr{
+  width: 1208px;
+  margin-bottom: 109px;
+  font-family: Catamaran-Light;
+  font-size: 12px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  line-height: 18px;
+  display: block;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+.LegalLandingPage-footer{
+  padding-top: 31px;
+  padding-bottom: 31px;
+  padding-right: 335px;
+  background: #4A4A4A;
+}
+
+.LegalLandingPage-group_2_Copy_9{
+  height: 26px;
+  width: 152px;
+  margin-right: 6px;
+  float: left;
+}
+
+.LegalLandingPage-__2016{
+  margin-top: 4px;
+  margin-right: 94px;
+  font-family: Catamaran-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 20px;
+  float: left;
+}
+
+.LegalLandingPage-contact{
+  margin-top: 4px;
+  margin-right: 64px;
+  font-family: Catamaran-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 20px;
+  float: left;
+}
+
+.LegalLandingPage-about{
+  margin-top: 4px;
+  margin-right: 65px;
+  font-family: Catamaran-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 20px;
+  float: left;
+}
+
+.LegalLandingPage-jobs {
+  margin-top: 4px;
+  margin-right: 64px;
+  font-family: Catamaran-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 20px;
+  float: left;
+}
+
+.LegalLandingPage-imprint {
+  margin-top: 4px;
+  margin-right: 64px;
+  font-family: Catamaran-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 20px;
+  float: left;
+}
+
+.LegalLandingPage-legal {
+  margin-top: 4px;
+  font-family: Catamaran-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 20px;
+  float: left;
+}
+
+.heading {
+  font-family: Catamaran-Bold;
+}
+
+.pullUp{
+  @media widescreen{
+    margin-top: -1rem !important;
+  }
+}
+
+.FAQp{
+  font-size:14px;
+}
+
+.FAQh{
+  font-size:15px;
+  font-family: Catamaran-Bold;
+}

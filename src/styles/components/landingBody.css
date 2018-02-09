@@ -1,0 +1,232 @@
+@value mobile,tablet,computer,monitor,widescreen from "../common/breakpoints.css";
+
+.landing-page{
+  .businessintro-section{
+    position:relative;
+  }
+  .search-section{
+    position:relative;
+  }
+  .calendly-button{
+    border: 2px solid #0076A5;
+    border-radius: 5px;
+    font-family: Catamaran-Medium;
+    font-size: 14px;
+    color: #0076A5;
+    letter-spacing: 1px;
+    position: absolute;
+    right:19rem;
+    bottom:2.5rem;
+    background: transparent;
+    &:hover {
+      background-color: transparent;
+      color: #0076A5;
+    }
+  }
+
+  .overlay{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-image: linear-gradient(to bottom, #ffffff, rgba(255, 255, 255,0));
+    z-index: 9;
+  }
+  .search-text {
+    top: 18%;
+    right: 8.5%;
+    z-index: 10;
+    position: absolute;
+  }
+  .business-text{
+    top: 28%;
+    padding-left: 30rem;
+    z-index: 10;
+    position: absolute;
+    h2{
+      width: 710.5px;
+      height: 100px;
+      line-height: 1.04;
+      font-size: 48px;
+      font-weight: 600;
+      letter-spacing: 4px;
+      text-align: center;
+    }
+    .row {
+      padding: 0;
+    }
+    h4{
+      height: 72px;
+      font-size: 36px;
+      font-weight: normal;
+      line-height: 1.0;
+      letter-spacing: 2px;
+      text-align: center;
+      max-width: 776px;
+    }
+    .button{
+      background-color: #ff6d6a;
+      margin-top: 4rem;
+      width: 170px;
+      height: 40px;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.43;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-left: 18rem;
+      color: #ffffff;
+    }
+  }
+  .cover-content{
+    margin-top: 10rem;
+    z-index: 10;
+    h4{
+      padding-top:1rem;
+      font-size: 18px;
+      line-height: 1.67;
+      letter-spacing: 1px;
+      padding-bottom: 155px;
+    }
+    .button{
+      margin-top: 2rem;
+      padding:0.4rem 2.4rem;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.43;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  .menu-text{
+    margin-left: 43rem;
+  }
+  .product-description{
+    padding-top: 6.5rem;
+    &.seeker {
+      h1{
+        color: #FF6D6A;
+        line-height: 1.25;
+        letter-spacing: 4px;
+        font-weight: bold;
+      }
+    }
+    &.provider{
+      padding-bottom: 6.5rem;
+      h1{
+        color: #0076a5;
+        line-height: 1.25;
+        letter-spacing: 4px;
+        font-weight: bold;
+      }
+    }
+    h1{
+      padding-bottom: 0rem;
+      margin-bottom: 0px;
+    }
+    .sub-info{
+      margin-bottom: 80px;
+      font-size: 14px;
+      line-height: 1.43;
+      letter-spacing: 1px;
+      .bold{
+        font-weight: 500;
+      }
+    }
+    .card-wrapper{
+      margin-bottom: 20px;
+      display: inline-block;
+      /*float: none*/
+    }
+    .card{
+      background-color: #e7e7e7;
+      border-radius: 5px;
+      padding: 50px 30px;
+      &-heading{
+        border-bottom: 1px solid #979797;
+        color: #000000;
+        font-weight: bold;
+        font-size: 18px;
+        padding-bottom: 16px;
+        line-height: 1.67;
+        letter-spacing: 1px;
+      }
+      &-body{
+        font-size: 14px;
+        padding: 20px 0px;
+        line-height: 1.71;
+        letter-spacing: 1px;
+      }
+    }
+    .industry{
+      padding:25px;
+    }
+  }
+}
+
+@custom-media --small-viewport (max-width: 144px);
+
+@media (--small-viewport) {
+  .sticky{
+    top:40px;
+  }
+}
+
+/*.cardSize{
+  height:170px;
+}*/
+
+.cardTitle{
+
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	color: #474747;
+}
+
+.cardBody{
+	opacity: 0.8;
+	font-family: Catamaran;
+	font-size: 12px;
+	letter-spacing: 0.2px;
+	color: #4a4a4a;
+}
+
+.cardHeader{
+	font-family: Catamaran;
+	font-size: 14px;
+	letter-spacing: 0.3px;
+	color: #0f3d55;
+  text-align: center;
+}
+.cardHeaderVR{
+	font-family: Catamaran;
+	font-size: 14px;
+	letter-spacing: 0.3px;
+	color: #0f3d55;
+  text-align: center;
+  @media widescreen{
+    margin-bottom: -2rem !important;
+    margin-top: 0px !important;
+  }
+  @media monitor{
+    margin-bottom: -2rem !important;
+    margin-top: 0px !important;
+  }
+  @media computer{
+    margin-bottom: -2rem !important;
+    margin-top: 0px !important;
+  }
+}
+
+.usecaseBack{
+  height:867px;
+  width:735px;
+}

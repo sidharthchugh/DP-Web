@@ -1,0 +1,467 @@
+@value mobile,tablet,computer,monitor,widescreen from "../common/breakpoints.css";
+
+.sk-three-bounce{
+  text-align: center;
+}
+
+.company-logo{
+  @media mobile{
+    margin: auto;
+  }
+  &--img{
+    border: 0px;
+    max-width: 65px!important;
+    min-height: 65px!important;
+    @media mobile{
+      float: none;
+      margin: auto;
+    }
+  }
+}
+
+.matches-applyButton{
+  margin-right: 54rem;
+  padding-bottom: 2rem;
+}
+
+.match-noResultCard {
+  margin-bottom: 2rem !important;
+}
+
+.match-apply{
+  box-shadow: none;
+}
+
+/* Collapsible card */
+.ui.grid.collapsible-card{
+  padding: 30px;
+  & > div:nth-child(2){
+    margin-top: 5px;
+  }
+}
+
+.match-card {
+  &--container.card-generic{
+    box-shadow: 0 2px 4px 0 #e7e7e7;
+    padding: 0; /* overrides .card-generic default */
+    margin-bottom: 1rem;
+    .collapsible-card--title {
+      padding-top: 30px;
+      padding-bottom: 30px !important;
+      margin-bottom: 0;
+      font-size: 24px;
+      font-family: Catamaran-Bold;
+      padding-left: 1rem;
+      text-align: left;
+    }
+    &--saved{
+      padding: 0;
+      background-color: #FFFFFF;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px 0 #e7e7e7;
+      padding: 0; /* overrides .card-generic default */
+      margin-bottom: 10px !important;
+      .collapsible-card--title {
+        padding-top: 30px;
+        padding-bottom: 30px !important;
+        margin-bottom: 0;
+        font-size: 24px;
+        font-family: Catamaran-Bold;
+        margin-left: 1rem;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.section-margin{
+  padding-left: 15px;
+}
+
+.profileSection{
+  margin-left: -35px;
+  margin-right: -45px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #D8D8D8;
+  &--semantic{
+    margin-left: -30px;
+    margin-right: -30px;;
+    margin-bottom: 0px;
+  }
+}
+
+.match-logo{
+  cursor: pointer;
+  left:13px;
+}
+
+.batch-sign{
+  cursor: auto!important;
+}
+
+
+
+.matchRefresh{
+  position: absolute!important;
+  z-index: 99!important;
+  margin-left: -8.3rem!important;
+  margin-top: 1.3rem!important;
+  @media mobile{
+    top: 5px;
+    right: 15px;
+    width: 92px!important;
+    position: absolute !important;
+    z-index: 99 !important;
+    margin-left: -19.3rem !important;
+    margin-top: 5.5rem !important;
+  }
+}
+
+.batch-sign{
+  @media mobile{
+    margin-left: 9rem;
+  }
+}
+
+.matches-sidebar{
+  background-color: white;
+}
+
+.score {
+  margin-right: 10em;
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #8EDD65;
+  border-radius: 5px;
+  margin-left: auto;
+  @media tablet{
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  @media mobile{
+    text-align: center;
+    float:left;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+.saveMatch-score {
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #8EDD65;
+  border-radius: 5px;
+  margin-left: auto;
+  @media tablet{
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    margin-top: 2rem;
+  }
+  @media mobile{
+    text-align: center;
+    margin: auto;
+  }
+}
+
+.save-matches{
+  @media mobile{
+    float: right;
+    width: 92px!important;
+  }
+}
+
+.match-feed {
+  margin-top: -10px;
+}
+
+.container-saved-match-buttons{
+  text-align: center;
+  @media tablet{
+    margin-top: 30px;
+  }
+  & > div{
+    @media computer{
+      margin-top: -2rem;
+      margin: auto;
+    }
+    @media tablet{
+      margin-top: -2rem;
+      float: none;
+      margin: auto;
+      text-align: center;
+    }
+    @media mobile{
+      padding-top: 35px;
+      float: none;
+      margin: auto;
+      text-align: center;
+    }
+  }
+}
+
+.match-score-number {
+  height: 30px;
+  width: 35px;
+  font-family: Catamaran-Medium;
+  font-size: 26px;
+  color: #8EDD65;
+  letter-spacing: 2.6px;
+  line-height: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.saveMatch-date {
+  padding-top:1rem;
+  font-size: 14px;
+  font-family: Catamaran;
+}
+
+.match-sidebBar{
+  margin-left: 14px;
+  margin-top: 10px;
+}
+
+.matches-section{
+  margin-bottom: 30px;
+}
+
+.matchContacts{
+  margin-top: 2rem;
+}
+
+.match-score-text {
+  margin-left: -8px;
+  height: 16px;
+  width: 90px;
+  font-family: Catamaran-Light;
+  font-size: 10px;
+  color: #8EDD65;
+  letter-spacing: 1px;
+  text-align: left;
+  @media mobile{
+    margin-left: -2px;
+  }
+}
+
+.noSearch{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.no-savedMatch{
+  font-family: Catamaran-Light;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+
+.no-matchResult{
+  font-family: Catamaran-Light;
+  font-size: 16px;
+  color: #4A4A4A;
+  letter-spacing: 1.4px;
+  text-align: center;
+  margin-right: 41px;
+  margin-top: -42px;
+}
+.no-matchSearchName{
+  padding-top: 30px;
+  padding-bottom: 0px !important;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-family: Catamaran-Bold;
+  padding-left: 1rem;
+  text-align: left !important;
+}
+
+.match-Loading {
+  font-family: Catamaran-Light;
+  font-size: 16px;
+  color: #4A4A4A;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+.match-summary {
+  /*padding: 0 30px 0 3rem;*/
+  &--title {
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-family: Catamaran-SemiBold;
+    height: 34px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+    cursor: pointer;
+    @media tablet{
+      text-align: center;
+      padding-bottom: 0px;
+    }
+    @media mobile{
+      text-align: left;
+      padding-bottom: 0px;
+    }
+  }
+  &--head,
+  &--description {
+    margin-bottom: 30px;
+    @media mobile{
+      text-align: left;
+    }
+    @media tablet {
+      margin-left: 8px;
+    }
+  }
+  &--slogan {
+    margin-left: 100px;
+  }
+  &--key-fact,
+  &--specific {
+    display: inline-block;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  &--header-specific {
+    font-size: 16px;
+    font-family: Catamaran;
+    margin-bottom: 10px;
+  }
+  &--field,
+  &--field--description{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.88;
+    letter-spacing: 1.1px;
+    text-transform: none;
+    color: #4a4a4a;
+    margin-left: auto;
+    float: left;
+    margin-top: 0;
+    vertical-align: top;
+    word-break: break-word;
+    @computer{
+      max-width: 260px;
+    }
+  }
+  &--field--description{
+    padding-top: 6px;
+    width: 60%;
+    font-size: 14px;
+  }
+  &--first-row{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+.btn-save-match {
+  width:110px;
+  display: block;
+  margin: auto;
+  background-color: #FF6D6A!important;
+  &:hover {
+    background-color: #FF6D6A;
+  }
+  &:focus {
+    background-color: #FF6D6A;
+  }
+}
+
+.btn-fullprofile-match{
+  width: 110px;
+  margin-top: 10px;
+}
+
+.btnContact-fullprofile-match {
+  float: right;
+  width: 110px;
+  margin-right: -6.8rem;
+  padding-right: -11rem;
+  margin-top: -3.2rem;
+  height: 35px;
+}
+
+.cancel-matches{
+  text-transform: uppercase;
+  width: 120px!important;
+  height: 38px;
+  line-height: 20px;
+  padding: 10px;
+  margin-top:-4px;
+  border-radius: 0px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: none!important;
+  color: #fefefe!important;
+  background-color: #d8d8d8!important;
+  margin-right: 1.2rem;
+  @media tablet{
+    margin-right: 5px;
+  }
+  @media computer{
+    margin-right: 5px;
+  }
+  &:hover{
+    background-color: #d8d8d8;
+    color: #fefefe;
+  }
+  &:focus{
+    background-color: #d8d8d8;
+  }
+}
+
+.ui.modal>.actions {
+  border-top: 0px;
+}
+
+.btn-contact-match {
+  width: 110px;
+  margin-bottom: 0px;
+  font-size: 0.75rem;
+  background-color: #FF6D6A;
+  letter-spacing: 1px;
+  color: #ffffff;
+  &:hover {
+    background-color: #FF6D6A;
+  }
+  &:focus {
+    background-color: #FF6D6A;
+  }
+}
+
+
+.column-match{
+  background-color: #ffffff;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.shiftDe{
+  left:6px !important;
+}

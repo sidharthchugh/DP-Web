@@ -1,0 +1,100 @@
+exports[`SearchPreferences renders correctly 1`] = `
+<form
+  className="small-12 columns no-padding-left-right search-card no-padding passive-search-preference">
+  <a
+    className="edit-button"
+    onClick={[Function]}>
+    <img
+      alt="edit-icon"
+      className="edit-icon"
+      src="test-file-stub" />
+     Edit
+  </a>
+  <div
+    className="save-cancel-button">
+    <a
+      className="hollow small secondary button"
+      onClick={[Function]}>
+      Cancel
+    </a>
+    <button
+      className="small alert button"
+      onClick={[Function]}
+      type="submit">
+      Save
+    </button>
+  </div>
+  <div
+    className="row card-header">
+    <div
+      className="small-12 columns">
+      <h3>
+        Passive Search Preferences
+      </h3>
+    </div>
+  </div>
+  <div
+    className="row card-content">
+    <div
+      className="small-12 columns checkbox-list-item">
+      <input
+        defaultChecked={false}
+        disabled={true}
+        id="suitableProduct"
+        type="checkbox" />
+      <label
+        htmlFor="suitableProduct">
+        I am interested in suitable product/service offers
+      </label>
+    </div>
+    <div
+      className="small-12 columns checkbox-list-item">
+      <input
+        defaultChecked={false}
+        disabled={true}
+        id="strategicPartners"
+        type="checkbox" />
+      <label
+        htmlFor="strategicPartners">
+        I am interested in strategic partnerships
+      </label>
+    </div>
+    <div
+      className="small-12 columns checkbox-list-item">
+      <input
+        defaultChecked={false}
+        disabled={true}
+        id="collaboration"
+        type="checkbox" />
+      <label
+        htmlFor="collaboration">
+        I am interested in joining projects for collaboration
+      </label>
+    </div>
+    <div
+      className="small-12 columns checkbox-list-item">
+      <input
+        defaultChecked={false}
+        disabled={true}
+        id="customer"
+        type="checkbox" />
+      <label
+        htmlFor="customer">
+        I am interested in new customers for my product/services
+      </label>
+    </div>
+    <div
+      className="small-12 columns checkbox-list-item">
+      <input
+        defaultChecked={false}
+        disabled={true}
+        id="opportunities"
+        type="checkbox" />
+      <label
+        htmlFor="opportunities">
+        I am interested in other relevant opportunities
+      </label>
+    </div>
+  </div>
+</form>
+`;

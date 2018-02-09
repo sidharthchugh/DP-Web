@@ -1,0 +1,16 @@
+.profile-page-left-sidebar {
+  background-color: #f9f9f9;
+  width: 100px;
+  overflow-y: scroll;
+  float: left;
+  position: absolute;
+  left: 0px;
+
+  .sidebar-list {
+    li a {
+      padding: 0.8em;
+      color: #696969;
+      font-size: 1.5em;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "dbConnectionUri": "mongodb://localhost/DigitalPartners",
+  "migrationsDir": "migrations",
+  "es6": true
+}

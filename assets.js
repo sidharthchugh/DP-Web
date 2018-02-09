@@ -1,0 +1,1 @@
+module.exports = {"app":{"js":"/assets/app.js"}};

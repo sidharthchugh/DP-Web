@@ -1,0 +1,55 @@
+.inactiveSupport{
+  color:#9b9b9b;
+  &:hover {
+    color: #9b9b9b;
+  }
+}
+
+.activeSupport{
+  color: #000000;
+  &:hover {
+    color: #000000;
+  }
+}
+
+.support-page{
+  .validation {
+    color: red;
+  }
+  .extended-card{
+    height: 780px;
+  }
+  min-height: 100%;
+  .support-form{
+    position: relative;
+  }
+  .support-content-header{
+    letter-spacing: 3px;
+    font-family: 'Catamaran-Bold';
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.67;
+    color: #000000;
+    margin-bottom: 17px;
+  }
+  .sub-heading{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    color: #000000;
+    margin-bottom: 60px;
+    font-family: 'Catamaran';
+  }
+  .support-form{
+    input{
+      margin-top: 20px;
+      margin-bottom: 10px;
+      min-width: 10.2rem;
+    }
+    textarea{
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.invitePartner-page{
+  .profile-header{
+    .profile-button{
+      background-color: #d8d8d8;
+      &:hover {
+        background-color: #d8d8d8;
+      }
+    }
+  }
+  .profile-card {
+    .character-counter {
+      display: none;
+    }
+  }
+  min-height: 100%;
+  .invitePartner-form{
+    position: relative;
+  }
+  .extended-card{
+    height: 780px;
+  }
+  .invitePartner-content-header{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.67;
+    letter-spacing: 3px;
+    color: #000000;
+    margin-bottom: 17px;
+    font-family: 'Catamaran-Bold';
+  }
+  .sub-heading{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    font-family: 'Catamaran';
+  }
+  .invitePartner-button{
+    padding: 10px 42px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .validation{
+    color: red;
+  }
+  .invitePartner-form{
+    .name-info{
+      padding-top: 20px;
+    }
+    input{
+      margin-bottom: 10px;
+    }
+    textarea{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
